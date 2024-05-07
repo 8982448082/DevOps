@@ -1,0 +1,29 @@
+package com.CRM.TestCases;
+
+import org.testng.annotations.Test;
+
+import com.CRM.Pages.HomePage;
+
+public class HomePageTest extends BaseClass{
+	
+  @Test(priority=1)
+  public void validateURL() {
+	  
+	  HomePage hp=new HomePage();
+	  String actUrl=hp.getAppUrl();
+	  
+	  
+  }
+  
+  @Test(priority=2)
+  public void validateTitle() {
+	  
+  }
+  
+  @Test(priority=3)
+  public void validateSignIn() {
+	  
+  }
+  
+  
+}

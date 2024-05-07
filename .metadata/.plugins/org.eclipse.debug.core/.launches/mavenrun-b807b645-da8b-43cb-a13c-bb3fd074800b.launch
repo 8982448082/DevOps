@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+    <booleanAttribute key="M2_BATCH" value="false"/>
+    <stringAttribute key="M2_GOALS" value="-U archetype:generate"/>
+    <listAttribute key="M2_PROPERTIES">
+        <listEntry value="archetypeGroupId=io.cucumber"/>
+        <listEntry value="archetypeArtifactId=cucumber-archetype"/>
+        <listEntry value="archetypeVersion=7.16.1"/>
+        <listEntry value="groupId=CucumberProject"/>
+        <listEntry value="artifactId=CucumberProject"/>
+        <listEntry value="version=0.0.1-SNAPSHOT"/>
+        <listEntry value="package=CucumberProject.CucumberProject"/>
+        <listEntry value="outputDirectory=G:\Shraddha_SeleniumDemo"/>
+    </listAttribute>
+    <booleanAttribute key="M2_SAVE_BEFORE_LAUNCH" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\UTKARSH\AppData\Local\Temp\m2e-archetypeGenerator7848528841029886363"/>
+</launchConfiguration>

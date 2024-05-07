@@ -1,0 +1,29 @@
+package com.Steps;
+
+public class S04BigBasketSearch {
+	
+	@Given("Open {string}")
+	public void open(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I search for {string}")
+	public void i_search_for(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I hit enter")
+	public void i_hit_enter() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("Search for Mango should display")
+	public void search_for_mango_should_display() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

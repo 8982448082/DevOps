@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My suite">
+	<test name="My test">
+		<classes>
+		<class name="com.TestNGDemos.D06AmazonTest">
+		</class>
+	</classes>
+		<groups>
+			<run>
+			<include name="Gadgets">
+			</include>
+			</run>
+		</groups>
+	</test>
+</suite>

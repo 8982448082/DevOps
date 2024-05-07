@@ -1,0 +1,45 @@
+package StarAgileAssignments;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Assignment3 {
+	
+	
+// Write a WebDriver script to handle a drop down and select an option based on specific criteria.
+
+
+	public static void main(String[] args) {
+		
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
+		
+		WebElement droplist=driver.findElement(By.xpath("//*[@id=\"post-2646\"]/div[2]/div/div/div/p/select"));
+		Select countries=new Select(droplist);
+		
+		System.out.println(countries.getFirstSelectedOption().getText());
+		
+		List<WebElement> countryList=countries.getOptions();
+		
+		countries.selectByValue("IND");
+		
+		int i=0;
+		for(WebElement c:countryList)
+		{
+			System.out.println(i + c.getText());
+		}
+		
+		
+
+	}
+
+}

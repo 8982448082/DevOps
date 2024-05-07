@@ -1,0 +1,24 @@
+package com.CRM.Pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePgae {
+	
+	//Encapsulation = Identification (Locators) + Actions
+	
+	private WebDriver driver;
+	
+	// locators
+	private By link=By.linkText("Sign In");
+	
+	//Method
+	public String getAppTitle()
+	{
+		return driver.getTitle();
+	}
+	
+	
+	
+
+}

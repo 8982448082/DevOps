@@ -1,0 +1,10 @@
+Feature: Amazon Links test
+
+  Background: 
+    Given Open Amazon
+
+  Scenario: To Test Sell Link
+  When Click on Sell link
+  Then Sell page should openn
+  
+  

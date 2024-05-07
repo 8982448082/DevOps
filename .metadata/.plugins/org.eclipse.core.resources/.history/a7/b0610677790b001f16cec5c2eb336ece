@@ -1,0 +1,7 @@
+package com.CRM.Pages;
+
+public class HomePgae {
+	
+	//Encapsulation = Identification (Locators) + Actions
+
+}
